@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.header-COnt {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-bg-img {
+  height: 300px;
+  margin-top: 10px;
+}
+.bg {
+  background-image: url("https://img.freepik.com/premium-vector/sewing-machine-logo-design-tailors-sewing-shops-others_297778-599.jpg?w=740");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bg-cont-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 20px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-bg-img {
+    height: 100px;
+    margin-top: 10px;
+  }
+  .bg-cont-2 {
+    padding-bottom: 50px;
+  }
+  .header-COnt {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .header-COnt {
+    padding-bottom: 40px;
+  }
+  .header-bg-img {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .header-bg-img {
+    height: 200px;
+  }
+}
