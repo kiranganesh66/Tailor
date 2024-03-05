@@ -1,6 +1,9 @@
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const butn = useNavigate();
+
   return (
     <div className="contact-Cont">
       <h1 className="contheadng">Contact Details</h1>
@@ -16,6 +19,11 @@ const Contact = () => {
         alt="contactLog"
         src="https://nrdcindia.com/uploads/images/1568886999Conatct2.jpg"
       />
+      <div>
+        <button onClick={() => butn("/home")} className="back-Btn">
+          Back
+        </button>
+      </div>
     </div>
   );
 };

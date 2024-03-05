@@ -1,6 +1,8 @@
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 const Category = () => {
+  const btnCl = useNavigate();
   return (
     <div className="header-Con">
       <h1 className="head">Here are the deep details</h1>
@@ -33,6 +35,9 @@ const Category = () => {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScfr7xse4mLxd7EEdvxREKv6lZZdfAP6Kfxg&usqp=CAU"
         />
       </div>
+      <button onClick={() => btnCl("/home")} className="back-Btn">
+        Back
+      </button>
     </div>
   );
 };

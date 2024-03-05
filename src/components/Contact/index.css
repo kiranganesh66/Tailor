@@ -35,3 +35,10 @@
   border-width: 1px;
   border-style: solid;
 }
+
+.back-Btn {
+  margin-top: 20px;
+  color: blueviolet;
+  width: 80px;
+  height: 30px;
+}
