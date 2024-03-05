@@ -36,7 +36,7 @@ const Desigines = () => {
           />
         </div>
 
-        <Carasol />
+        {/* <Carasol /> */}
       </div>
     </>
   );
